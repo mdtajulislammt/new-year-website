@@ -5,9 +5,9 @@
      font-family: 'Open Sans', sans-serif;
      font-family: 'Work Sans', sans-serif;
 }
-
+/* linear-gradient(0deg, #6e6969be 0%, rgba(222, 232, 240, 0) 100%),  */
 header{
-     background-image: url('./images/banner/banner3.png');
+     background-image:url('./images/banner/banner3.png');
      background-repeat: no-repeat;
      background-size: cover;
      height: 100vh;
@@ -44,6 +44,13 @@ header{
      font-size: 20px ;
      font-weight: 600;
      color: #005FAC;
+     box-shadow:0px 2px 10px 0px #151414;
+     
+}
+.btn-header:hover{
+     background-color:#7db3df;
+     color: #FFF; 
+     box-shadow:inset 0px 2px 10px 0px #151414;
 }
 
 
@@ -59,8 +66,7 @@ header{
      margin-left: 206px;
 }
 .person-text{
-     border: 1px solid red;
-     margin-top: 10%;
+          margin-top: 10%;
      margin-right: 332px;
 }
 
@@ -148,4 +154,70 @@ header{
 }
 .plans-section-2-text {
      padding:64px ;
+}
+/* <---------------------footer-section-----------------> */
+.footer-section{
+     background-color: #151414;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     
+    
+     
+
+}
+.furture{
+     margin-right: 130px;
+     margin-bottom: 130px;
+    
+ 
+}
+.top{
+     margin-top: 70px;
+      padding: 5%;
+}
+.down{
+margin-top: 10%;
+margin-left: 10%;
+}
+.furture h2{
+     font-size: 45px;
+     font-weight: 700; 
+     margin-bottom: 15px;
+
+}
+.furture p{
+     font-size: 20px;
+     margin-bottom: 18px;
+    
+}
+
+
+.footer-icon img {
+     margin-right: 18px;
+
+}
+
+.furture h3{
+     font-size: 25px;
+     font-weight: 600;
+     margin-bottom: 31px;
+
+}
+.furture input{
+     background-color: #151414;
+     color: #F3F3F3;
+     font-size: 18px;
+     font-weight: 400;
+     padding: 21px;
+     border-radius: 8px;
+     border: 1px solid #FFF;
+     margin-bottom: 20px;
+
+}
+.footer-btn{
+     color: white;
+     background: #005FAC;
+     border-radius: 10px;
 }
